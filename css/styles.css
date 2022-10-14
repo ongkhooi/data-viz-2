@@ -4,11 +4,12 @@
 	display: inline-block;
 }
 
-#viz1-container {
+.viz-container {
 	position: relative;
 	text-align: center;
 	justify-content: center;
 	margin-top: 20px;
+	display: flex;
 }
 
 .menuItems {
