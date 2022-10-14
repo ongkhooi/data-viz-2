@@ -1,0 +1,15 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Pie Chart with percentage_tooltip",
+    "data": {
+      "url": "https://raw.githubusercontent.com/ongkhooi/data-viz-2/main/data/Suicide%20rate.csv"
+    },
+    "mark": {"type": "arc", "tooltip": true},
+    "encoding": {
+      "theta": {"field": "Suicide rate", "type": "quantitative", "stack": "normalize"},
+      "color": {"field": "Country", "type": "nominal"}
+    },
+    "transform": [
+      {"filter": "datum['Suicide rate'] > 20"}
+    ]
+  }

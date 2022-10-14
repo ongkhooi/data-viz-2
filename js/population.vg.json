@@ -7,8 +7,8 @@
     "config": {
       "legend": {"orient": "bottom", "layout": {"bottom": {"anchor": "middle"}}}
     },
-    "width": 900,
-    "height": 450,
+    "width": 600,
+    "height": 300,
     "projection": {"type": "equalEarth"},
     "layer":[
       {
@@ -34,7 +34,7 @@
           "fields": ["Population_growth"]
         }
       },
-      {"calculate": "datum.Population_growth + 0.1", "as": "Population growth"}
+      {"calculate": "datum.Population_growth", "as": "Population growth"}
     ],
     "mark": {"type": "geoshape", "stroke": "black"},
     "encoding": {
@@ -42,8 +42,7 @@
         "field": "Population growth",
         "type": "quantitative",
         "scale": {
-          "type": "log",
-          "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+          "type": "linear"
         }
       },
       "tooltip": [

@@ -7,8 +7,8 @@
     "text": "WORLD GDP per capita",
     "fontSize":20
   },
-  "width": 900,
-  "height": 450,
+  "width": 600,
+  "height": 300,
   "projection": {"type": "equalEarth"},
   "layer":[
     {
