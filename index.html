@@ -24,8 +24,8 @@
         <ul class="menuItems">
           <li><a href='#choropleth_map' data-item='Viz 1'>GDP</a></li>
           <li><a href='#population' data-item='Viz 2'>Population</a></li>
-          <li><a href='#urban' data-item='Viz 3'>Viz 3</a></li>
-          <li><a href='#suicide_rate' data-item='Viz 4'>Viz 4</a></li>
+          <li><a href='#urban' data-item='Viz 3'>Urbanization</a></li>
+          <li><a href='#suicide_rate' data-item='Suicide Rate'>Viz 4</a></li>
           <li><a href='#viz5' data-item='Viz 5'>Viz 5</a></li>
         </ul>
       </nav>
@@ -71,12 +71,23 @@
     </div>
   </div>
 
+  <div class="viz-container" style="width: 100%;">
+    <div>
+      <div id="viz5"></div>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+    </div>
+  </div>
+</div>
+
   <script type="text/javascript">
 
     var spec1 = "js/choropleth_map.vg.json";
     var spec2 = "js/population.vg.json";
     var spec3 = "js/urbanization.vg.json";
     var spec4 = "js/suicide_rate.vg.json";
+    var spec5 = "js/viz5.vg.json";
 
     vegaEmbed('#choropleth_map', spec1).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -91,6 +102,10 @@
     }).catch(console.error);
 
     vegaEmbed('#suicide_rate', spec4).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#viz5', spec5).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
