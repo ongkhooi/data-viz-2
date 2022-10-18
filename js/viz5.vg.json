@@ -4,6 +4,13 @@
     "width": 800,
     "height": 400,
     "projection": {"type": "equalEarth"},
+    "params": [
+      {
+        "name": "Year",
+        "value": 2020,
+        "bind": {"input": "range", "min": 1990, "max": 2020, "step": 1}
+        }
+    ],
     "layer":[
       {
         "data": {
@@ -18,7 +25,7 @@
         },
         "transform": [
           {
-            "lookup": "Location",
+            "lookup": "Country",
             "from": {
               "data": {
                 "url": "https://raw.githubusercontent.com/ongkhooi/data-viz-2/main/js/ne_110m_admin_0_countries.topojson",
@@ -31,7 +38,8 @@
             },
             "as" : "geo"
           },
-          {"filter": "datum.Time == Time"}
+          {"filter": "datum.Year == Year"},
+          {"calculate": "datum.Population + 0.1", "as": "Population"}
         ],    
         "mark": {"type": "geoshape"},
         "encoding": {
@@ -40,15 +48,14 @@
             "field": "Population", "title":"Population",
             "type": "quantitative",
             "scale": {
-            "type": "threshold",
-            "domain": [-20000,-10000,0,10000,20000],
-            "scheme": "redyellowgreen"
+              "type": "log",
+              "scheme": "redyellowgreen"
             }
           },
           "tooltip": [
-            {"field": "Location", "type": "nominal", "title": "Country"},
+            {"field": "Country", "type": "nominal", "title": "Country"},
             {"field": "Population", "type": "quantitative", "title": "Population"},
-            {"field": "Time", "type": "quantitative", "title": "Year"}
+            {"field": "Year", "type": "quantitative", "title": "Year"}
           ]}}
     ]
 }
