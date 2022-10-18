@@ -8,7 +8,7 @@
       {
         "name": "Year",
         "value": 2020,
-        "bind": {"input": "range", "min": 1990, "max": 2020, "step": 10}
+        "bind": {"input": "range", "min": 1990, "max": 2020, "step": 1}
         }
     ],
     "layer":[
