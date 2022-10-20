@@ -48,7 +48,7 @@
     "tooltip": [
       {"field": "Location", "type": "nominal", "title": "Country"},
       {"field": "NetMigrations", "type": "quantitative", "title": "Net Number of Migrants (thousands)"},
-      {"field": "Time", "type": "quantitative", "title": "Year"}
+      {"field": "Time", "timeUnit":"year", "type": "temporal", "title": "Year"}
     ]
   }
 }
