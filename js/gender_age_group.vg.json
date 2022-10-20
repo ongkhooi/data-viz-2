@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "./data/gender_age_group.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/ongkhooi/data-viz-2/main/data/gender_age_group.csv"},
   "title": "Population number in different age groups for a specific year over the globe.",
   "width": 800,
   "height": 500,

@@ -11,7 +11,7 @@
     }
   ],
   "data": {
-      "url": "./data/income_group.csv"
+      "url": "https://raw.githubusercontent.com/ongkhooi/data-viz-2/main/data/income_group.csv"
   },
   "mark": {"type": "arc", "innerRadius": 70},
   "transform": [

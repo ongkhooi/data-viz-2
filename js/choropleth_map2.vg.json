@@ -44,7 +44,7 @@
         "lookup": "properties.NAME",
         "from": {
           "data": {
-            "url": "./data/GDP%20per%20capita.csv"
+            "url": "https://raw.githubusercontent.com/ongkhooi/data-viz-2/main/data/GDP%20per%20capita.csv"
           },
           "key": "Country",
           "fields": ["GDP_per_capita"]
