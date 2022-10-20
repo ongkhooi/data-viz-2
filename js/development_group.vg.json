@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Population distribution in regions of different development level",
+    "width": 300,
+    "height": 250,
+    "params": [
+        {
+          "name": "Year",
+          "value": 2020,
+          "bind": {"input": "range", "min": 1990, "max": 2020, "step": 1, "name": "Year: "}
+        }
+    ],
+    "data": {"url": "./data/development_group.csv"},
+    "mark": {"type": "arc", "innerRadius": 70},
+    "transform": [
+        {"filter": "datum.Time == Year"}
+    ],
+    "encoding": {
+        "theta": {"field": "TPopulation1July", "type": "quantitative"},
+        "color": {"field": "Location", "type": "nominal"},
+        "tooltip": [
+            {"field": "Location", "type": "nominal", "title": "Development regions"},
+            {"field": "TPopulation1July", "type": "quantitative", "title": "Population (thousands)"},
+            {"field": "Time", "type": "quantitative", "title": "Year"}
+          ]
+    },
+    "config": {
+        "legend": {
+          "title": null
+        }
+      }
+  }

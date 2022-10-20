@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "./data/gender_age_group.csv"},
+  "title": "Population number in different age groups for a specific year over the globe.",
+  "width": 800,
+  "height": 500,
+  "params": [
+    {
+      "name": "year",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 1990,
+        "max": 2020,
+        "step": 1,
+        "name": "Year selection: "
+      }
+    },
+    {
+      "name": "continent_legend",
+      "select": {"type": "point", "fields": ["Location"]},
+      "bind": "legend"
+    },
+    {
+      "name": "continent_select",
+      "bind": {
+        "input": "select",
+        "options": [null, "Northern America", "Latin America and the Caribbean", "Europe", "Africa", "Asia", "Oceania"],
+        "labels": [
+          "Show All",
+          "Northern America", 
+          "Latin America and the Caribbean",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.Time == year"},
+    {"filter": "continent_select == null || datum.Location == continent_select"}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "AgeGrp",
+      "type": "ordinal",
+      "title": "Age Group",
+      "sort": ["0-4","15-19","20-24","25-29","30-34","35-39","40-44","45-49","50-54","55-59","60-64","65-69","70-74","75-79","80-84","85-89","90-94","95-99","100+"]
+    },
+    "y": {
+      "field": "PopTotal",
+      "type": "quantitative",
+      "title": "Total Population (thousands)"
+    },
+    "color": {
+      "field": "Location",
+      "scale": {
+        "domain": ["Northern America", "Latin America and the Caribbean","Asia", "Oceania", "Europe", "Africa"],
+        "range": ["#e7ba52", "#c7c7c7", "#aec7e8", "#1f77b4", "#9467bd", "red"]
+      },
+      "title": "Continent"
+    },
+    "opacity": {
+      "condition": {"param": "continent_legend", "value": 1},
+      "value": 0.2
+    },
+    "tooltip": [
+      {"field": "Location", "type": "nominal", "title": "Continent"},
+      {"field": "PopTotal", "type": "quantitative", "title": "Population (thousands)"},
+      {"field": "Time", "type": "quantitative", "title": "Year"}
+    ]
+  }
+}

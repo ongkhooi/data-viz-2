@@ -1,0 +1,63 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Crude Birth and Death rate from year 1990 to 2020.",
+  "data": {"url": "data/birth_death_rate.csv"},
+  "width": 600,
+  "height": 450,
+  "params": [
+    {
+      "name": "continent_select",
+      "value": "Asia",
+      "bind": {
+        "input": "select",
+        "options": [null, "Northern America", "Latin America and the Caribbean", "Europe", "Africa", "Asia", "Oceania"],
+        "labels": [
+          "Show All",
+          "Northern America", 
+          "Latin America and the Caribbean",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.Location == continent_select"}
+  ],
+  "repeat": {
+    "layer": ["CBR", "CDR"]
+  },
+  "spec": {
+    "mark": {
+      "type": "line",
+      "point": true
+    },
+    "encoding": {
+      "x": {
+        "title": "Year",
+        "field": "Time",
+        "timeUnit": "year",
+        "type": "quantitative"
+      },
+      "y": {
+        "aggregate": "sum",
+        "field": {"repeat": "layer"},
+        "type": "quantitative",
+        "title": "Rate (%)"
+      },
+      "color": {
+        "datum": {"repeat": "layer"},
+        "type": "nominal"
+      },
+      "tooltip": [
+        {"field": "Location", "type": "nominal", "title": "Continent"},
+        {"field": "CBR", "type": "quantitative", "title": "Birth Rate"},
+        {"field": "CDR", "type": "quantitative", "title": "Death Rate"},
+        {"field": "Time", "timeUnit": "year", "title": "Year"}
+      ]
+    }
+  }
+}

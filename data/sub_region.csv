@@ -1,0 +1,652 @@
+LocTypeName,Location,Time,TPopulation1July
+Subregion,Eastern Africa,1990,196984.083
+Subregion,Eastern Africa,1991,202552.22
+Subregion,Eastern Africa,1992,208086.347
+Subregion,Eastern Africa,1993,213837.144
+Subregion,Eastern Africa,1994,218904.152
+Subregion,Eastern Africa,1995,224339.858
+Subregion,Eastern Africa,1996,231216.638
+Subregion,Eastern Africa,1997,238099.53
+Subregion,Eastern Africa,1998,244687.812
+Subregion,Eastern Africa,1999,251440.802
+Subregion,Eastern Africa,2000,258473.864
+Subregion,Eastern Africa,2001,265726.962
+Subregion,Eastern Africa,2002,273243.843
+Subregion,Eastern Africa,2003,281066.591
+Subregion,Eastern Africa,2004,289158.122
+Subregion,Eastern Africa,2005,297412.725
+Subregion,Eastern Africa,2006,305920.805
+Subregion,Eastern Africa,2007,314759.923
+Subregion,Eastern Africa,2008,323863.939
+Subregion,Eastern Africa,2009,333141.26
+Subregion,Eastern Africa,2010,342740.307
+Subregion,Eastern Africa,2011,352512.195
+Subregion,Eastern Africa,2012,362460.568
+Subregion,Eastern Africa,2013,372761.155
+Subregion,Eastern Africa,2014,383013.54
+Subregion,Eastern Africa,2015,393349.057
+Subregion,Eastern Africa,2016,404071.811
+Subregion,Eastern Africa,2017,414917.571
+Subregion,Eastern Africa,2018,425948.172
+Subregion,Eastern Africa,2019,437462.042
+Subregion,Eastern Africa,2020,449292.465
+Subregion,Middle Africa,1990,71837.342
+Subregion,Middle Africa,1991,74210.599
+Subregion,Middle Africa,1992,76573.455
+Subregion,Middle Africa,1993,78951.29
+Subregion,Middle Africa,1994,82037.21
+Subregion,Middle Africa,1995,85133.345
+Subregion,Middle Africa,1996,87326.424
+Subregion,Middle Africa,1997,89341.939
+Subregion,Middle Africa,1998,91757.688
+Subregion,Middle Africa,1999,94488.473
+Subregion,Middle Africa,2000,97355.936
+Subregion,Middle Africa,2001,100351.292
+Subregion,Middle Africa,2002,103438.07
+Subregion,Middle Africa,2003,106654.008
+Subregion,Middle Africa,2004,110068.953
+Subregion,Middle Africa,2005,113647.821
+Subregion,Middle Africa,2006,117342.269
+Subregion,Middle Africa,2007,121174.033
+Subregion,Middle Africa,2008,125142.778
+Subregion,Middle Africa,2009,129290.433
+Subregion,Middle Africa,2010,133613.925
+Subregion,Middle Africa,2011,138099.354
+Subregion,Middle Africa,2012,142680.579
+Subregion,Middle Africa,2013,147427.059
+Subregion,Middle Africa,2014,152363.767
+Subregion,Middle Africa,2015,157397.878
+Subregion,Middle Africa,2016,162670.703
+Subregion,Middle Africa,2017,168078.993
+Subregion,Middle Africa,2018,173483.134
+Subregion,Middle Africa,2019,178960.158
+Subregion,Middle Africa,2020,184569.895
+Subregion,Northern Africa,1990,141249.94
+Subregion,Northern Africa,1991,144335.847
+Subregion,Northern Africa,1992,147355.316
+Subregion,Northern Africa,1993,150423.824
+Subregion,Northern Africa,1994,153602.927
+Subregion,Northern Africa,1995,156770.124
+Subregion,Northern Africa,1996,159881.567
+Subregion,Northern Africa,1997,163013.639
+Subregion,Northern Africa,1998,166094.351
+Subregion,Northern Africa,1999,169168.483
+Subregion,Northern Africa,2000,172317.661
+Subregion,Northern Africa,2001,175487.449
+Subregion,Northern Africa,2002,178687.884
+Subregion,Northern Africa,2003,181917.07
+Subregion,Northern Africa,2004,185202.192
+Subregion,Northern Africa,2005,188569.996
+Subregion,Northern Africa,2006,192041.326
+Subregion,Northern Africa,2007,195672.383
+Subregion,Northern Africa,2008,199406.43
+Subregion,Northern Africa,2009,203230.734
+Subregion,Northern Africa,2010,207113.902
+Subregion,Northern Africa,2011,210716.868
+Subregion,Northern Africa,2012,214503.101
+Subregion,Northern Africa,2013,218921.009
+Subregion,Northern Africa,2014,223609.06
+Subregion,Northern Africa,2015,228360.426
+Subregion,Northern Africa,2016,233081.11
+Subregion,Northern Africa,2017,237842.437
+Subregion,Northern Africa,2018,242537.18
+Subregion,Northern Africa,2019,247023.818
+Subregion,Northern Africa,2020,251417.771
+Subregion,Southern Africa,1990,45241.063
+Subregion,Southern Africa,1991,46426.38
+Subregion,Southern Africa,1992,47426.809
+Subregion,Southern Africa,1993,48336.466
+Subregion,Southern Africa,1994,49194.354
+Subregion,Southern Africa,1995,50022.74
+Subregion,Southern Africa,1996,50822.524
+Subregion,Southern Africa,1997,51560.957
+Subregion,Southern Africa,1998,52234.616
+Subregion,Southern Africa,1999,52847.13
+Subregion,Southern Africa,2000,53388.518
+Subregion,Southern Africa,2001,53888.916
+Subregion,Southern Africa,2002,54393.512
+Subregion,Southern Africa,2003,54898.164
+Subregion,Southern Africa,2004,55405.709
+Subregion,Southern Africa,2005,55922.13
+Subregion,Southern Africa,2006,56461.532
+Subregion,Southern Africa,2007,57042.037
+Subregion,Southern Africa,2008,57696.567
+Subregion,Southern Africa,2009,58391.751
+Subregion,Southern Africa,2010,59098.524
+Subregion,Southern Africa,2011,59852.751
+Subregion,Southern Africa,2012,60654.09
+Subregion,Southern Africa,2013,61487.662
+Subregion,Southern Africa,2014,62454.035
+Subregion,Southern Africa,2015,63716.836
+Subregion,Southern Africa,2016,64384.437
+Subregion,Southern Africa,2017,64729.59
+Subregion,Southern Africa,2018,65555.168
+Subregion,Southern Africa,2019,66428.716
+Subregion,Southern Africa,2020,67272.182
+Subregion,Western Africa,1990,182844.809
+Subregion,Western Africa,1991,187515.446
+Subregion,Western Africa,1992,192489.622
+Subregion,Western Africa,1993,197591.235
+Subregion,Western Africa,1994,202749.649
+Subregion,Western Africa,1995,208065.603
+Subregion,Western Africa,1996,213517.594
+Subregion,Western Africa,1997,219208.378
+Subregion,Western Africa,1998,225133.569
+Subregion,Western Africa,1999,231154.452
+Subregion,Western Africa,2000,237416.08
+Subregion,Western Africa,2001,244009.252
+Subregion,Western Africa,2002,250848.152
+Subregion,Western Africa,2003,257813.429
+Subregion,Western Africa,2004,264946.358
+Subregion,Western Africa,2005,272345.428
+Subregion,Western Africa,2006,279974.339
+Subregion,Western Africa,2007,287813.068
+Subregion,Western Africa,2008,295871.567
+Subregion,Western Africa,2009,304146.104
+Subregion,Western Africa,2010,312666.741
+Subregion,Western Africa,2011,321494.632
+Subregion,Western Africa,2012,330498.895
+Subregion,Western Africa,2013,339583.695
+Subregion,Western Africa,2014,348858.622
+Subregion,Western Africa,2015,358283.742
+Subregion,Western Africa,2016,367903.544
+Subregion,Western Africa,2017,377765.142
+Subregion,Western Africa,2018,387741.394
+Subregion,Western Africa,2019,397826.43
+Subregion,Western Africa,2020,408124.919
+Subregion,Central Asia,1990,50978.535
+Subregion,Central Asia,1991,51902.276
+Subregion,Central Asia,1992,52715.391
+Subregion,Central Asia,1993,53322.753
+Subregion,Central Asia,1994,53779.807
+Subregion,Central Asia,1995,54199.781
+Subregion,Central Asia,1996,54613.451
+Subregion,Central Asia,1997,54916.848
+Subregion,Central Asia,1998,55129.763
+Subregion,Central Asia,1999,55428.518
+Subregion,Central Asia,2000,55939.12
+Subregion,Central Asia,2001,56555.078
+Subregion,Central Asia,2002,57185.357
+Subregion,Central Asia,2003,57832.372
+Subregion,Central Asia,2004,58514.881
+Subregion,Central Asia,2005,59237.704
+Subregion,Central Asia,2006,60007.798
+Subregion,Central Asia,2007,60823.802
+Subregion,Central Asia,2008,61693.452
+Subregion,Central Asia,2009,62633.848
+Subregion,Central Asia,2010,63615.586
+Subregion,Central Asia,2011,64620.341
+Subregion,Central Asia,2012,65652.93
+Subregion,Central Asia,2013,66725.223
+Subregion,Central Asia,2014,67842.758
+Subregion,Central Asia,2015,68990.8
+Subregion,Central Asia,2016,70144.306
+Subregion,Central Asia,2017,71275.664
+Subregion,Central Asia,2018,72404.368
+Subregion,Central Asia,2019,73550.272
+Subregion,Central Asia,2020,74724.418
+Subregion,Eastern Asia,1990,1371246.543
+Subregion,Eastern Asia,1991,1389559.644
+Subregion,Eastern Asia,1992,1403970.553
+Subregion,Eastern Asia,1993,1417207.562
+Subregion,Eastern Asia,1994,1429829.382
+Subregion,Eastern Asia,1995,1441783.995
+Subregion,Eastern Asia,1996,1453006.776
+Subregion,Eastern Asia,1997,1463618.749
+Subregion,Eastern Asia,1998,1473702.043
+Subregion,Eastern Asia,1999,1483266.424
+Subregion,Eastern Asia,2000,1492867.381
+Subregion,Eastern Asia,2001,1502429.013
+Subregion,Eastern Asia,2002,1511449.695
+Subregion,Eastern Asia,2003,1520156.288
+Subregion,Eastern Asia,2004,1528796.791
+Subregion,Eastern Asia,2005,1537457.543
+Subregion,Eastern Asia,2006,1546192.516
+Subregion,Eastern Asia,2007,1555161.494
+Subregion,Eastern Asia,2008,1564324.379
+Subregion,Eastern Asia,2009,1573760.576
+Subregion,Eastern Asia,2010,1583271.614
+Subregion,Eastern Asia,2011,1592689.779
+Subregion,Eastern Asia,2012,1602779.694
+Subregion,Eastern Asia,2013,1612944.967
+Subregion,Eastern Asia,2014,1622632.262
+Subregion,Eastern Asia,2015,1631710.759
+Subregion,Eastern Asia,2016,1640269.774
+Subregion,Eastern Asia,2017,1648827.57
+Subregion,Eastern Asia,2018,1655663.106
+Subregion,Eastern Asia,2019,1660384.918
+Subregion,Eastern Asia,2020,1663179.739
+Subregion,Southern Asia,1990,1197106.333
+Subregion,Southern Asia,1991,1224471.444
+Subregion,Southern Asia,1992,1251762.449
+Subregion,Southern Asia,1993,1278935.512
+Subregion,Southern Asia,1994,1306143.247
+Subregion,Southern Asia,1995,1333672.552
+Subregion,Southern Asia,1996,1361005.68
+Subregion,Southern Asia,1997,1388488.52
+Subregion,Southern Asia,1998,1416310.769
+Subregion,Southern Asia,1999,1444349.601
+Subregion,Southern Asia,2000,1472489.876
+Subregion,Southern Asia,2001,1500989.505
+Subregion,Southern Asia,2002,1529397.261
+Subregion,Southern Asia,2003,1557312.779
+Subregion,Southern Asia,2004,1584764.674
+Subregion,Southern Asia,2005,1611446.502
+Subregion,Southern Asia,2006,1637168.644
+Subregion,Southern Asia,2007,1661774.032
+Subregion,Southern Asia,2008,1686027.478
+Subregion,Southern Asia,2009,1710734.316
+Subregion,Southern Asia,2010,1735919.999
+Subregion,Southern Asia,2011,1761240.975
+Subregion,Southern Asia,2012,1786031.18
+Subregion,Southern Asia,2013,1810142.829
+Subregion,Southern Asia,2014,1833991.975
+Subregion,Southern Asia,2015,1857336.021
+Subregion,Southern Asia,2016,1880378.88
+Subregion,Southern Asia,2017,1903436.593
+Subregion,Southern Asia,2018,1926062.366
+Subregion,Southern Asia,2019,1948009.379
+Subregion,Southern Asia,2020,1969617.892
+Subregion,South-Eastern Asia,1990,440743.895
+Subregion,South-Eastern Asia,1991,449417.383
+Subregion,South-Eastern Asia,1992,458162.902
+Subregion,South-Eastern Asia,1993,466954.344
+Subregion,South-Eastern Asia,1994,475597.693
+Subregion,South-Eastern Asia,1995,484100.807
+Subregion,South-Eastern Asia,1996,492604.617
+Subregion,South-Eastern Asia,1997,501115.09
+Subregion,South-Eastern Asia,1998,509505.624
+Subregion,South-Eastern Asia,1999,517621.867
+Subregion,South-Eastern Asia,2000,525397.454
+Subregion,South-Eastern Asia,2001,532976.52
+Subregion,South-Eastern Asia,2002,540490.002
+Subregion,South-Eastern Asia,2003,547923.397
+Subregion,South-Eastern Asia,2004,555201.569
+Subregion,South-Eastern Asia,2005,562458.078
+Subregion,South-Eastern Asia,2006,569846.603
+Subregion,South-Eastern Asia,2007,577364.443
+Subregion,South-Eastern Asia,2008,584853.929
+Subregion,South-Eastern Asia,2009,592310.092
+Subregion,South-Eastern Asia,2010,599778.172
+Subregion,South-Eastern Asia,2011,607264.265
+Subregion,South-Eastern Asia,2012,614812.515
+Subregion,South-Eastern Asia,2013,622257.244
+Subregion,South-Eastern Asia,2014,629504.561
+Subregion,South-Eastern Asia,2015,636644.12
+Subregion,South-Eastern Asia,2016,643756.216
+Subregion,South-Eastern Asia,2017,650699.355
+Subregion,South-Eastern Asia,2018,657383.997
+Subregion,South-Eastern Asia,2019,663897.083
+Subregion,South-Eastern Asia,2020,670164.337
+Subregion,Western Asia,1990,151276.77
+Subregion,Western Asia,1991,154502.19
+Subregion,Western Asia,1992,158576.423
+Subregion,Western Asia,1993,162641.137
+Subregion,Western Asia,1994,166665.1
+Subregion,Western Asia,1995,170421.862
+Subregion,Western Asia,1996,174193.378
+Subregion,Western Asia,1997,177956.354
+Subregion,Western Asia,1998,181709.151
+Subregion,Western Asia,1999,185497.734
+Subregion,Western Asia,2000,189344.014
+Subregion,Western Asia,2001,193229.667
+Subregion,Western Asia,2002,197147.144
+Subregion,Western Asia,2003,201086.108
+Subregion,Western Asia,2004,205143.098
+Subregion,Western Asia,2005,209766.111
+Subregion,Western Asia,2006,215131.473
+Subregion,Western Asia,2007,220947.98
+Subregion,Western Asia,2008,226983.819
+Subregion,Western Asia,2009,233011.568
+Subregion,Western Asia,2010,238585.64
+Subregion,Western Asia,2011,243808.619
+Subregion,Western Asia,2012,249045.585
+Subregion,Western Asia,2013,254383.446
+Subregion,Western Asia,2014,259701.793
+Subregion,Western Asia,2015,264755.758
+Subregion,Western Asia,2016,269604.313
+Subregion,Western Asia,2017,274064.263
+Subregion,Western Asia,2018,278507.664
+Subregion,Western Asia,2019,283125.742
+Subregion,Western Asia,2020,286637.688
+Subregion,Eastern Europe,1990,310110.997
+Subregion,Eastern Europe,1991,310766.622
+Subregion,Eastern Europe,1992,311186.252
+Subregion,Eastern Europe,1993,311300.545
+Subregion,Eastern Europe,1994,310833.635
+Subregion,Eastern Europe,1995,309943.203
+Subregion,Eastern Europe,1996,308899.03
+Subregion,Eastern Europe,1997,307839.762
+Subregion,Eastern Europe,1998,306801.642
+Subregion,Eastern Europe,1999,305679.015
+Subregion,Eastern Europe,2000,304568.104
+Subregion,Eastern Europe,2001,303331.773
+Subregion,Eastern Europe,2002,301887.3
+Subregion,Eastern Europe,2003,300473.291
+Subregion,Eastern Europe,2004,299143.371
+Subregion,Eastern Europe,2005,297862.48
+Subregion,Eastern Europe,2006,296710.403
+Subregion,Eastern Europe,2007,295876.112
+Subregion,Eastern Europe,2008,295328.765
+Subregion,Eastern Europe,2009,295010.081
+Subregion,Eastern Europe,2010,294708.066
+Subregion,Eastern Europe,2011,294419.349
+Subregion,Eastern Europe,2012,294330.339
+Subregion,Eastern Europe,2013,294300.629
+Subregion,Eastern Europe,2014,294219.721
+Subregion,Eastern Europe,2015,294189.917
+Subregion,Eastern Europe,2016,294225.764
+Subregion,Eastern Europe,2017,294171.931
+Subregion,Eastern Europe,2018,293940.023
+Subregion,Eastern Europe,2019,293569.778
+Subregion,Eastern Europe,2020,292833.368
+Subregion,Northern Europe,1990,92174.904
+Subregion,Northern Europe,1991,92446.638
+Subregion,Northern Europe,1992,92700.619
+Subregion,Northern Europe,1993,92902.963
+Subregion,Northern Europe,1994,93084.341
+Subregion,Northern Europe,1995,93266.506
+Subregion,Northern Europe,1996,93452.178
+Subregion,Northern Europe,1997,93668.33
+Subregion,Northern Europe,1998,93905.914
+Subregion,Northern Europe,1999,94157.58
+Subregion,Northern Europe,2000,94435.136
+Subregion,Northern Europe,2001,94741.862
+Subregion,Northern Europe,2002,95073.833
+Subregion,Northern Europe,2003,95442.673
+Subregion,Northern Europe,2004,95885.15
+Subregion,Northern Europe,2005,96399.618
+Subregion,Northern Europe,2006,96986.578
+Subregion,Northern Europe,2007,97646.354
+Subregion,Northern Europe,2008,98322.969
+Subregion,Northern Europe,2009,98986.21
+Subregion,Northern Europe,2010,99649.802
+Subregion,Northern Europe,2011,100330.041
+Subregion,Northern Europe,2012,101015.126
+Subregion,Northern Europe,2013,101679.023
+Subregion,Northern Europe,2014,102334.604
+Subregion,Northern Europe,2015,102983.121
+Subregion,Northern Europe,2016,103618.394
+Subregion,Northern Europe,2017,104237.183
+Subregion,Northern Europe,2018,104813.106
+Subregion,Northern Europe,2019,105366.768
+Subregion,Northern Europe,2020,105830.515
+Subregion,Southern Europe,1990,143693.397
+Subregion,Southern Europe,1991,143911.62
+Subregion,Southern Europe,1992,143970.516
+Subregion,Southern Europe,1993,144017.208
+Subregion,Southern Europe,1994,144223.69
+Subregion,Southern Europe,1995,144549.616
+Subregion,Southern Europe,1996,145012.48
+Subregion,Southern Europe,1997,145461.918
+Subregion,Southern Europe,1998,145650.135
+Subregion,Southern Europe,1999,145689.61
+Subregion,Southern Europe,2000,145891.019
+Subregion,Southern Europe,2001,146213.407
+Subregion,Southern Europe,2002,146881.94
+Subregion,Southern Europe,2003,147935.323
+Subregion,Southern Europe,2004,149030.72
+Subregion,Southern Europe,2005,150000.259
+Subregion,Southern Europe,2006,150873.032
+Subregion,Southern Europe,2007,151929.068
+Subregion,Southern Europe,2008,152963.153
+Subregion,Southern Europe,2009,153571.755
+Subregion,Southern Europe,2010,153892.786
+Subregion,Southern Europe,2011,154093.894
+Subregion,Southern Europe,2012,154101.546
+Subregion,Southern Europe,2013,153864.571
+Subregion,Southern Europe,2014,153518.568
+Subregion,Southern Europe,2015,153194.33
+Subregion,Southern Europe,2016,152944.927
+Subregion,Southern Europe,2017,152759.701
+Subregion,Southern Europe,2018,152658.791
+Subregion,Southern Europe,2019,152680.354
+Subregion,Southern Europe,2020,152503.691
+Subregion,Western Europe,1990,175517.984
+Subregion,Western Europe,1991,176478.018
+Subregion,Western Europe,1992,177402.105
+Subregion,Western Europe,1993,178221.176
+Subregion,Western Europe,1994,178921.496
+Subregion,Western Europe,1995,179541.083
+Subregion,Western Europe,1996,180089.878
+Subregion,Western Europe,1997,180596.469
+Subregion,Western Europe,1998,181087.915
+Subregion,Western Europe,1999,181573.811
+Subregion,Western Europe,2000,182074.215
+Subregion,Western Europe,2001,182591.33
+Subregion,Western Europe,2002,183096.285
+Subregion,Western Europe,2003,183573.702
+Subregion,Western Europe,2004,184104.002
+Subregion,Western Europe,2005,184688.129
+Subregion,Western Europe,2006,185287.696
+Subregion,Western Europe,2007,185941.602
+Subregion,Western Europe,2008,186641.295
+Subregion,Western Europe,2009,187334.759
+Subregion,Western Europe,2010,188026.159
+Subregion,Western Europe,2011,188746.382
+Subregion,Western Europe,2012,189460.584
+Subregion,Western Europe,2013,190169.583
+Subregion,Western Europe,2014,190941.252
+Subregion,Western Europe,2015,191740.082
+Subregion,Western Europe,2016,192529.498
+Subregion,Western Europe,2017,193280.546
+Subregion,Western Europe,2018,193947.21
+Subregion,Western Europe,2019,194572.746
+Subregion,Western Europe,2020,195057.782
+Subregion,Caribbean,1990,34174.448
+Subregion,Caribbean,1991,34643.787
+Subregion,Caribbean,1992,35098.852
+Subregion,Caribbean,1993,35539.228
+Subregion,Caribbean,1994,35963.855
+Subregion,Caribbean,1995,36377.374
+Subregion,Caribbean,1996,36782.097
+Subregion,Caribbean,1997,37177.788
+Subregion,Caribbean,1998,37565.414
+Subregion,Caribbean,1999,37944.7
+Subregion,Caribbean,2000,38308.753
+Subregion,Caribbean,2001,38652.992
+Subregion,Caribbean,2002,38985.759
+Subregion,Caribbean,2003,39310.836
+Subregion,Caribbean,2004,39623.562
+Subregion,Caribbean,2005,39927.096
+Subregion,Caribbean,2006,40232.294
+Subregion,Caribbean,2007,40536.22
+Subregion,Caribbean,2008,40836.846
+Subregion,Caribbean,2009,41142.491
+Subregion,Caribbean,2010,41404.566
+Subregion,Caribbean,2011,41660.236
+Subregion,Caribbean,2012,41954.98
+Subregion,Caribbean,2013,42238.68
+Subregion,Caribbean,2014,42504.134
+Subregion,Caribbean,2015,42754.707
+Subregion,Caribbean,2016,42989.647
+Subregion,Caribbean,2017,43209.005
+Subregion,Caribbean,2018,43469.542
+Subregion,Caribbean,2019,43727.82
+Subregion,Caribbean,2020,43962.246
+Subregion,Central America,1990,111244.252
+Subregion,Central America,1991,113594.319
+Subregion,Central America,1992,115960.566
+Subregion,Central America,1993,118341.879
+Subregion,Central America,1994,120729.529
+Subregion,Central America,1995,123108.098
+Subregion,Central America,1996,125442.609
+Subregion,Central America,1997,127755.718
+Subregion,Central America,1998,130050.993
+Subregion,Central America,1999,132326.693
+Subregion,Central America,2000,134569.095
+Subregion,Central America,2001,136784.548
+Subregion,Central America,2002,138996.726
+Subregion,Central America,2003,141185.852
+Subregion,Central America,2004,143371.774
+Subregion,Central America,2005,145534.454
+Subregion,Central America,2006,147644.118
+Subregion,Central America,2007,149744.432
+Subregion,Central America,2008,151824.428
+Subregion,Central America,2009,153884.608
+Subregion,Central America,2010,156064.198
+Subregion,Central America,2011,158384.478
+Subregion,Central America,2012,160696.992
+Subregion,Central America,2013,162936.804
+Subregion,Central America,2014,165101.092
+Subregion,Central America,2015,167187.385
+Subregion,Central America,2016,169249.622
+Subregion,Central America,2017,171256.606
+Subregion,Central America,2018,173093.516
+Subregion,Central America,2019,174800.776
+Subregion,Central America,2020,176343.832
+Subregion,South America,1990,297146.415
+Subregion,South America,1991,302601.502
+Subregion,South America,1992,307967.445
+Subregion,South America,1993,313302.094
+Subregion,South America,1994,318637.008
+Subregion,South America,1995,323946.143
+Subregion,South America,1996,329199.281
+Subregion,South America,1997,334414.025
+Subregion,South America,1998,339582.998
+Subregion,South America,1999,344665.654
+Subregion,South America,2000,349634.282
+Subregion,South America,2001,354475.15
+Subregion,South America,2002,359177
+Subregion,South America,2003,363705.346
+Subregion,South America,2004,368126.785
+Subregion,South America,2005,372502.471
+Subregion,South America,2006,376788.331
+Subregion,South America,2007,380965.937
+Subregion,South America,2008,385031.351
+Subregion,South America,2009,389045.247
+Subregion,South America,2010,393078.249
+Subregion,South America,2011,397135.128
+Subregion,South America,2012,401166.823
+Subregion,South America,2013,405147.889
+Subregion,South America,2014,409128.834
+Subregion,South America,2015,413134.396
+Subregion,South America,2016,417101.74
+Subregion,South America,2017,420982.588
+Subregion,South America,2018,424740.674
+Subregion,South America,2019,428318.16
+Subregion,South America,2020,431530.044
+Subregion,Australia/New Zealand,1990,20445.392
+Subregion,Australia/New Zealand,1991,20752.684
+Subregion,Australia/New Zealand,1992,20995.067
+Subregion,Australia/New Zealand,1993,21205.252
+Subregion,Australia/New Zealand,1994,21426.394
+Subregion,Australia/New Zealand,1995,21676.892
+Subregion,Australia/New Zealand,1996,21940.303
+Subregion,Australia/New Zealand,1997,22186.103
+Subregion,Australia/New Zealand,1998,22411.711
+Subregion,Australia/New Zealand,1999,22634.385
+Subregion,Australia/New Zealand,2000,22873.229
+Subregion,Australia/New Zealand,2001,23137.721
+Subregion,Australia/New Zealand,2002,23424.428
+Subregion,Australia/New Zealand,2003,23718.94
+Subregion,Australia/New Zealand,2004,24006.464
+Subregion,Australia/New Zealand,2005,24304.512
+Subregion,Australia/New Zealand,2006,24647.008
+Subregion,Australia/New Zealand,2007,25052.322
+Subregion,Australia/New Zealand,2008,25508.111
+Subregion,Australia/New Zealand,2009,25963.779
+Subregion,Australia/New Zealand,2010,26365.507
+Subregion,Australia/New Zealand,2011,26738.303
+Subregion,Australia/New Zealand,2012,27139.554
+Subregion,Australia/New Zealand,2013,27562.426
+Subregion,Australia/New Zealand,2014,27983.774
+Subregion,Australia/New Zealand,2015,28410.826
+Subregion,Australia/New Zealand,2016,28863.783
+Subregion,Australia/New Zealand,2017,29336.585
+Subregion,Australia/New Zealand,2018,29817.756
+Subregion,Australia/New Zealand,2019,30316.204
+Subregion,Australia/New Zealand,2020,30731.184
+Subregion,Melanesia,1990,5297.72
+Subregion,Melanesia,1991,5446.178
+Subregion,Melanesia,1992,5612.258
+Subregion,Melanesia,1993,5788.202
+Subregion,Melanesia,1994,5968.825
+Subregion,Melanesia,1995,6154.186
+Subregion,Melanesia,1996,6347.302
+Subregion,Melanesia,1997,6549.352
+Subregion,Melanesia,1998,6756.766
+Subregion,Melanesia,1999,6968.589
+Subregion,Melanesia,2000,7184.395
+Subregion,Melanesia,2001,7403.224
+Subregion,Melanesia,2002,7625.772
+Subregion,Melanesia,2003,7852.445
+Subregion,Melanesia,2004,8082.717
+Subregion,Melanesia,2005,8316
+Subregion,Melanesia,2006,8553.287
+Subregion,Melanesia,2007,8794.045
+Subregion,Melanesia,2008,9037.748
+Subregion,Melanesia,2009,9284.77
+Subregion,Melanesia,2010,9535.712
+Subregion,Melanesia,2011,9786.31
+Subregion,Melanesia,2012,10033.982
+Subregion,Melanesia,2013,10281.373
+Subregion,Melanesia,2014,10527.814
+Subregion,Melanesia,2015,10771.504
+Subregion,Melanesia,2016,11012.608
+Subregion,Melanesia,2017,11252.036
+Subregion,Melanesia,2018,11489.65
+Subregion,Melanesia,2019,11725.722
+Subregion,Melanesia,2020,11959.34
+Subregion,Micronesia,1990,430.931
+Subregion,Micronesia,1991,438.677
+Subregion,Micronesia,1992,446.243
+Subregion,Micronesia,1993,454.161
+Subregion,Micronesia,1994,461.614
+Subregion,Micronesia,1995,468.846
+Subregion,Micronesia,1996,478.86
+Subregion,Micronesia,1997,491.606
+Subregion,Micronesia,1998,504.46
+Subregion,Micronesia,1999,517.056
+Subregion,Micronesia,2000,525.386
+Subregion,Micronesia,2001,528.086
+Subregion,Micronesia,2002,528.814
+Subregion,Micronesia,2003,528.83
+Subregion,Micronesia,2004,528.242
+Subregion,Micronesia,2005,527.045
+Subregion,Micronesia,2006,525.24
+Subregion,Micronesia,2007,523.014
+Subregion,Micronesia,2008,520.588
+Subregion,Micronesia,2009,518.152
+Subregion,Micronesia,2010,516.77
+Subregion,Micronesia,2011,517.42
+Subregion,Micronesia,2012,519.192
+Subregion,Micronesia,2013,520.966
+Subregion,Micronesia,2014,522.562
+Subregion,Micronesia,2015,524.049
+Subregion,Micronesia,2016,525.5
+Subregion,Micronesia,2017,526.834
+Subregion,Micronesia,2018,527.95
+Subregion,Micronesia,2019,528.878
+Subregion,Micronesia,2020,531.088
+Subregion,Polynesia,1990,569.782
+Subregion,Polynesia,1991,576.56
+Subregion,Polynesia,1992,583.539
+Subregion,Polynesia,1993,590.785
+Subregion,Polynesia,1994,598.084
+Subregion,Polynesia,1995,605.197
+Subregion,Polynesia,1996,612.223
+Subregion,Polynesia,1997,619.301
+Subregion,Polynesia,1998,626.247
+Subregion,Polynesia,1999,633.14
+Subregion,Polynesia,2000,639.764
+Subregion,Polynesia,2001,645.571
+Subregion,Polynesia,2002,650.99
+Subregion,Polynesia,2003,656.253
+Subregion,Polynesia,2004,661.024
+Subregion,Polynesia,2005,665.47
+Subregion,Polynesia,2006,669.994
+Subregion,Polynesia,2007,674.46
+Subregion,Polynesia,2008,678.336
+Subregion,Polynesia,2009,681.573
+Subregion,Polynesia,2010,684.774
+Subregion,Polynesia,2011,688.099
+Subregion,Polynesia,2012,690.68
+Subregion,Polynesia,2013,692.681
+Subregion,Polynesia,2014,694.822
+Subregion,Polynesia,2015,696.904
+Subregion,Polynesia,2016,698.987
+Subregion,Polynesia,2017,701.472
+Subregion,Polynesia,2018,704.322
+Subregion,Polynesia,2019,707.346
+Subregion,Polynesia,2020,711.813

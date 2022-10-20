@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Net migration number of each continent from 1990 to 2020.",
+  "data": {"url": "./data/net_migration.csv"},
+  "params": [
+    {
+      "name": "continent_select",
+      "value":"Northern America",
+      "bind": {
+        "input": "select",
+        "options": ["Northern America", "Latin America and the Caribbean", "Europe", "Africa", "Asia", "Oceania"],
+        "labels": [
+          "Northern America", 
+          "Latin America and the Caribbean",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent Selection: "
+      }
+    }
+  ],
+  "width": 600,
+  "height": 450,
+  "transform": [
+    {"filter": "continent_select == null || datum.Location == continent_select"}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "title": "Year",
+      "field": "Time",
+      "timeUnit":"year",
+      "type": "temporal",
+      "axis": {
+        "domain": false,
+        "ticks": false,
+        "labelAngle": 0,
+        "labelPadding": 4
+      }
+    },
+    "y": {
+      "field": "NetMigrations",
+      "type": "quantitative",
+      "scale": {"padding": 20},
+      "title": "Net Number of Migrants (thousands)",
+      "axis": {
+        "gridColor": {
+          "condition": {"test": "datum.value === 0", "value": "black"},
+          "value": "#ddd"
+        }
+      }
+    },
+    "tooltip": [
+      {"field": "Location", "type": "nominal", "title": "Continent"},
+      {"field": "NetMigrations", "type": "quantitative", "title": "Net Number of Migrants (thousands)"},
+      {"field": "Time", "type": "quantitative", "title": "Year"}
+    ]
+  }
+}
+  

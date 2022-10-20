@@ -10,104 +10,162 @@
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
-
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <div class="page">
-
+  <nav id="navbar">
     <div id="navbar-container">
-      <nav id="navbar">
-        <ul class="menuItems">
-          <li><a href='#choropleth_map' data-item='Viz 1'>GDP</a></li>
-          <li><a href='#population' data-item='Viz 2'>Population</a></li>
-          <li><a href='#urban' data-item='Viz 3'>Urbanization</a></li>
-          <li><a href='#suicide_rate' data-item='Suicide Rate'>Viz 4</a></li>
-          <li><a href='#viz5' data-item='Viz 5'>Viz 5</a></li>
-        </ul>
-      </nav>
+      <ul class="menuItems">
+        <li><a href='#subtitle1' data-item='Viz 1'>Population</a></li>
+        <li><a href='#subtitle2' data-item='Viz 2'>GDP</a></li>
+        <li><a href='#subtitle3' data-item='Viz 2'>Age Group</a></li>
+        <li><a href='#subtitle4' data-item='Viz 2'>Net Migrations</a></li>
+        <li><a href='#subtitle5' data-item='Viz 3'>Birth and Death Rate</a></li>
+      </ul>
     </div>
+  </nav>
   
-    <div id="header">
-      <h1 id="title">
-        Global Population and Economic Development
+
+  <div class="page">
+  
+    <!-- pure grid group -->
+    <div class="pure-u-1-1" id="header">
+      <h1 id="title" style="font-size: 50px;">
+        GLOBAL POPULATION DATA
       </h1>
-      <div>
-        Visualizing the living factors, economy and population of different countries throughout the globe.
+      <div style="font-size: 20px;  padding-left: 80px; padding-right:80px">
+        The world has gotten bigger and every coming year, the amount of resources and energy expended would directly affect the quality of life of the population. Every country, continent or region on the globe have different living environments and circumstances and this plays apart in how the people living in those places go by their every day life. 
       </div>
     </div>
+    <!-- end pure grid group -->
 
-    <div class="viz-container" style="width: 100%;">
-      <div>
+    <!-- pure grid group -->
+    <div class="viz-row-container">
+      <div class="pure-u-1-3">
+        <h2 id="subtitle1">
+          Population Density
+        </h2>
+        <p style="font-size: medium;";">
+          From the geographical map shown above, it can be clearly seen that <span style="font-weight:900; font-size:large; color:#1C3185;">China</span> is placed at one of the top countries which has the <span style="font-weight:900; font-size:large; color:#1C3185;">highest population number</span>. A reason of this could be due to the huge amount of arable land which is suitable for agricultural growth, and given the country's history with mass exporting many types of agricultural products such as tea, this has made their economy boom over the years.
+          <br></br>
+          Other noticeable countries which have a high population density include the <span style="font-weight:900; font-size:large; color:#2253A2;">United States of America</span> as well as <span style="font-weight:900; font-size:large; color:#2253A2;">Brazil</span> These two countries are highly developed regions that are also populated with a high volume of individuals from different cultures and backgrounds.
+        </p>
+      </div>
+      <div class="pure-u-2-3" style="padding-left: 20px;">
         <div id="choropleth_map"></div>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-      <div>
-        <div id="population"></div>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
       </div>
     </div>
+    <!-- end pure grid group -->
 
-    <div class="viz-container" style="width: 100%;">
-      <div>
-        <div id="urban"></div>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
+    <!-- pure grid group -->
+    <div class="viz-row-container">
+      <div class="pure-u-2-3">
+        <div id="choropleth_map2"></div>
       </div>
-      <div>
-        <div id="suicide_rate"></div>
+      <div class="pure-u-1-3">
+        <h2 id="subtitle2">
+          GLOBAL GDP per capita
+        </h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          The <b>Gross Domestic Product (GDP)</b> measures the monetary value of final goods and services, that is, those that are purchased by users which are produced in a country in a given period of time. Some countries such as the <span style="font-weight:900; font-size:large; color:#A73C03;">United States of America, Australia and Canada</span> were leading in export products sold which led to a positive rise in their state of economy.
+          <br></br>
+          A deduction that can be made after viewing the map is that <span style="font-weight:900; font-size:large; color:#FEC85D;">lesser developed countries</span> tend to have a lower GDP per capita value compared to those who are much more technologically advantage. This can be seen in regions located in the continent of <span style="font-weight:900; font-size:large; color:#FEC85D;">Africa</span> which have a much lower value of GDP and this could be because of issues such as poverty, government corruption and armed conflict. 
         </p>
       </div>
     </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="viz-row-container">
+      <div class="pure-u-1-1">
+        <h2 id="subtitle3">
+          Population distribution in different Age Groups
+        </h2>
+        <div id="gender_age_group"></div>
+        <br></br>
+        <p>
+          This chart represents the distribution of population coming from <span style="font-weight:900; font-size:large;">different age groups and continents</span>. The data shows an increase in the population volume through the coming years and this is makes sense as the number of individuals grow more and more with each generation. From the chart, we can also deduce that the continent of <span style="font-weight:900; font-size:large; color: red"">Africa</span> has the highest number of individuals ranging from the age of 1 to 4 and <span style="font-weight:900; font-size:large; color: #4C78A8">Europe</span> being the one with the lowest. 
+        </p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="viz-row-container">
+      <div class="pure-u-1-2" style="padding-right: 20px;">
+        <h2 id="subtitle4" >
+          Net number of migrations
+        </h2>
+        <div id="net_migrations"></div>
+        <p>
+          This chart shows the <span style="font-weight:900; font-size:large;">net number of migrations</span> of each continent across the years. The net migration is the difference number of immigrants (people moving into a given country) and the number of emmigrants (people moving out of the country). Across each continent, there are a few continents that have a <span style="font-weight:900; font-size:large; color: #F68921" >positive change</span> in the number of migrations and these include <span style="font-weight:900; font-size:large; color: #4C78A8">Northern America, Europe and Oceania</span>. This could be due to a variety of reasons such as better opportunities to work, better living conditions, to escape their troubled country or to even get a better education.
+        </p>
+      </div>
+      <div class="pure-u-1-2" style="padding-left: 20px;">
+        <h2 id="subtitle5">
+          Global crude birth rate and death rate
+        </h2>
+        <div id="birth_death_rate"></div>
+        <p>
+          The birth rate in most continents are <span style="font-weight:900; font-size:large; color: #F68921" >much higher</span> than the death rate, with the exception being in Europe where in recent years starting from 2017 and even from the years between 1992 and 2008, the death rate has excceeded the birth rate. This actually results in the increase in population number every passing year as mentioned in the previous sections.
+        </p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
   </div>
 
-  <div class="viz-container" style="width: 100%;">
-    <div>
-      <div id="viz5"></div>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      </p>
-    </div>
-  </div>
-</div>
+  <footer id="footer">
+    A visualization Ong Kien Hooi from Monash University Malaysia.
+  </footer>
+
 
   <script type="text/javascript">
 
     var spec1 = "js/choropleth_map.vg.json";
-    var spec2 = "js/population.vg.json";
-    var spec3 = "js/urbanization.vg.json";
-    var spec4 = "js/suicide_rate.vg.json";
-    var spec5 = "js/viz5.vg.json";
+    var spec2 = "js/choropleth_map2.vg.json";
+    var spec3 = "js/development_group.vg.json";
+    var spec4 = "js/income_group.vg.json";
+    var spec5 = "js/gender_age_group.vg.json";
+    var spec6 = "js/birth_death_rate.vg.json";
+    var spec7 = "js/net_migrations.vg.json";
+
 
     vegaEmbed('#choropleth_map', spec1).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#population', spec2).then(function(result) {
+    vegaEmbed('#choropleth_map2', spec2).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#urban', spec3).then(function(result) {
+    vegaEmbed('#development_group', spec3).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#suicide_rate', spec4).then(function(result) {
+    vegaEmbed('#income_group', spec4).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#viz5', spec5).then(function(result) {
+    vegaEmbed('#gender_age_group', spec5).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
+
+    vegaEmbed('#birth_death_rate', spec6).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#net_migrations', spec7).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
 
   </script>
 
