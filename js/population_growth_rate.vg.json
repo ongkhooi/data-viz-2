@@ -1,0 +1,109 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/ongkhooi/data-viz-2/main/data/population_growth_rate.csv"},
+    "width": 450,
+    "height": 450,
+    "title": "Population Growth Rate",
+    "encoding": {"x": {"field": "Time", "timeUnit":"year", "type": "temporal", "axis": {
+        "domain": false,
+        "ticks": false,
+        "labelAngle": 0,
+        "labelPadding": 4
+      }}},
+    "layer": [
+      {
+        "encoding": {
+          "color": {"field": "Location", "type": "nominal", "title":"Continent"},
+          "y": {
+            "field": "PopGrowthRate",
+            "type": "quantitative", 
+            "title":"Population Growth Rate (%)", 
+            "axis": {
+            "gridColor": {
+                "condition": {"test": "datum.value === 0", "value": "black"},
+                "value": "#ddd"
+                }
+            }
+        }
+        },
+        "layer": [
+          {"mark": {
+            "type": "line"
+          }},
+          {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
+        ]
+      },
+      {
+        "transform": [{"pivot": "Location", "value": "PopGrowthRate", "groupby": ["Time"]}],
+        "mark": "rule",
+        "encoding": {
+          "opacity": {
+            "condition": {"value": 0.5, "param": "hover", "empty": false},
+            "value": 0
+          },
+          "tooltip": [
+            {"field": "Africa", "type": "quantitative"},
+            {"field": "Asia", "type": "quantitative"},
+            {"field": "Europe", "type": "quantitative"},
+            {"field": "Latin America and the Caribbean", "type": "quantitative"},
+            {"field": "Northern America", "type": "quantitative"},
+            {"field": "Oceania", "type": "quantitative"}
+          ]
+        },
+        "params": [{
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": ["Time"],
+            "nearest": true,
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }]
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/ongkhooi/data-viz-2/main/data/population_growth_rate.csv"
+        },
+       "layer": [
+                {
+                  "transform": [
+                    {
+                      "window": [
+                        {
+                          "op": "rank",
+                          "as": "ranking"
+                        }
+                      ],
+                      "sort": [
+                        {
+                          "field": "PopGrowthRate",
+                          "order": "descending"
+                        }
+                      ]
+                    },
+                    {
+                      "filter": "datum.ranking == 1"
+                    },
+                    {
+                      "calculate": "datum.Location + ' has the highest population growth rate.'",
+                      "as": "text_annotation"
+                    }
+                  ],
+                  "mark": {
+                    "type": "text",
+                    "align": "center",
+                    "dx": 200,
+                    "dy": -210,
+                    "fill": "black"
+                  },
+                  "encoding": {
+                    "text": {
+                      "field": "text_annotation"
+                    }
+                  }
+                }
+              ]
+            }
+    ]
+  }

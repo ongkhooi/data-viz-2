@@ -28,7 +28,7 @@
         <li><a href='#subtitle2' data-item='Viz 2'>GDP</a></li>
         <li><a href='#subtitle3' data-item='Viz 2'>Age Group</a></li>
         <li><a href='#subtitle4' data-item='Viz 2'>Net Migrations</a></li>
-        <li><a href='#subtitle5' data-item='Viz 3'>Birth and Death Rate</a></li>
+        <li><a href='#subtitle5' data-item='Viz 3'>Population Growth Rate</a></li>
       </ul>
     </div>
   </nav>
@@ -106,16 +106,16 @@
         </h2>
         <div id="net_migrations"></div>
         <p>
-          This chart shows the <span style="font-weight:900; font-size:large;">net number of migrations</span> of each continent across the years. The net migration is the difference number of immigrants (people moving into a given country) and the number of emmigrants (people moving out of the country). Across each continent, there are a few continents that have a <span style="font-weight:900; font-size:large; color: #F68921" >positive change</span> in the number of migrations and these include <span style="font-weight:900; font-size:large; color: #4C78A8">Northern America, Europe and Oceania</span>. This could be due to a variety of reasons such as better opportunities to work, better living conditions, to escape their troubled country or to even get a better education.
+          This chart shows the <span style="font-weight:900; font-size:large;">net number of migrations</span> of each country across the years. The net migration is the difference number of immigrants (people moving into a given country) and the number of emmigrants (people moving out of the country). There are a few countries that have a <span style="font-weight:900; font-size:large; color: #F68921" >positive change</span> in the number of migrations and these include <span style="font-weight:900; font-size:large; color: #4C78A8">Finland, Singapore, Germany etc.</span>. This could be due to a variety of reasons such as better opportunities to work, better living conditions, to escape their troubled country or to even get a better education.
         </p>
       </div>
       <div class="pure-u-1-2" style="padding-left: 20px;">
         <h2 id="subtitle5">
-          Global crude birth rate and death rate
+          Population Growth Rate
         </h2>
-        <div id="birth_death_rate"></div>
+        <div id="population_growth_rate"></div>
         <p>
-          The birth rate in most continents are <span style="font-weight:900; font-size:large; color: #F68921" >much higher</span> than the death rate, with the exception being in Europe where in recent years starting from 2017 and even from the years between 1992 and 2008, the death rate has excceeded the birth rate. This actually results in the increase in population number every passing year as mentioned in the previous sections.
+          The population growth rate in <span style="font-weight:900; font-size:large; color: #4C78A8" >Africa</span> is <span style="font-weight:900; font-size:large; color: #F68921" >much higher</span> compared to the rest of the continents. This actually results in the increase in population number every passing year as mentioned in the previous sections. <span style="font-weight:900; font-size:large; color: red" >Europe</span> seems to be continent with the <span style="font-weight:900; font-size:large; color: red" >lowest population growth rate</span>, even gaining a negative value which indicates that there is actually a reduction in the population number located in the country.
         </p>
       </div>
     </div>
@@ -134,7 +134,7 @@
     var spec3 = "js/development_group.vg.json";
     var spec4 = "js/income_group.vg.json";
     var spec5 = "js/gender_age_group.vg.json";
-    var spec6 = "js/birth_death_rate.vg.json";
+    var spec6 = "js/population_growth_rate.vg.json";
     var spec7 = "js/net_migrations.vg.json";
 
 
@@ -158,7 +158,7 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#birth_death_rate', spec6).then(function(result) {
+    vegaEmbed('#population_growth_rate', spec6).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 

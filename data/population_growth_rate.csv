@@ -1,0 +1,187 @@
+LocTypeName,Location,Time,TPopulation1July,PopGrowthRate
+Geographic region,Africa,1990,638157.236,2.651
+Geographic region,Africa,1991,655040.493,2.572
+Geographic region,Africa,1992,671931.548,2.52
+Geographic region,Africa,1993,689139.958,2.537
+Geographic region,Africa,1994,706488.294,2.436
+Geographic region,Africa,1995,724331.67,2.551
+Geographic region,Africa,1996,742764.748,2.476
+Geographic region,Africa,1997,761224.444,2.434
+Geographic region,Africa,1998,779908.035,2.416
+Geographic region,Africa,1999,799099.34,2.446
+Geographic region,Africa,2000,818952.057,2.462
+Geographic region,Africa,2001,839463.871,2.485
+Geographic region,Africa,2002,860611.461,2.491
+Geographic region,Africa,2003,882349.262,2.498
+Geographic region,Africa,2004,904781.335,2.523
+Geographic region,Africa,2005,927898.1,2.523
+Geographic region,Africa,2006,951740.272,2.551
+Geographic region,Africa,2007,976461.444,2.578
+Geographic region,Africa,2008,1001981.281,2.582
+Geographic region,Africa,2009,1028200.282,2.584
+Geographic region,Africa,2010,1055233.397,2.606
+Geographic region,Africa,2011,1082675.8,2.53
+Geographic region,Africa,2012,1110797.234,2.598
+Geographic region,Africa,2013,1140180.58,2.623
+Geographic region,Africa,2014,1170299.023,2.592
+Geographic region,Africa,2015,1201107.938,2.605
+Geographic region,Africa,2016,1232111.604,2.493
+Geographic region,Africa,2017,1263333.733,2.512
+Geographic region,Africa,2018,1295265.049,2.481
+Geographic region,Africa,2019,1327701.163,2.466
+Geographic region,Africa,2020,1360677.231,2.441
+Geographic region,Asia,1990,3211352.076,1.897
+Geographic region,Asia,1991,3269852.938,1.715
+Geographic region,Asia,1992,3325187.718,1.642
+Geographic region,Asia,1993,3379061.307,1.573
+Geographic region,Asia,1994,3432015.23,1.537
+Geographic region,Asia,1995,3484178.996,1.481
+Geographic region,Asia,1996,3535423.902,1.44
+Geographic region,Asia,1997,3586095.561,1.406
+Geographic region,Asia,1998,3636357.351,1.377
+Geographic region,Asia,1999,3686164.145,1.344
+Geographic region,Asia,2000,3736037.844,1.344
+Geographic region,Asia,2001,3786179.783,1.322
+Geographic region,Asia,2002,3835669.459,1.275
+Geographic region,Asia,2003,3884310.944,1.245
+Geographic region,Asia,2004,3932421.014,1.217
+Geographic region,Asia,2005,3980365.939,1.207
+Geographic region,Asia,2006,4028347.034,1.19
+Geographic region,Asia,2007,4076071.75,1.166
+Geographic region,Asia,2008,4123883.055,1.166
+Geographic region,Asia,2009,4172450.399,1.175
+Geographic region,Asia,2010,4221171.012,1.147
+Geographic region,Asia,2011,4269623.979,1.136
+Geographic region,Asia,2012,4318321.904,1.132
+Geographic region,Asia,2013,4366453.707,1.085
+Geographic region,Asia,2014,4413673.348,1.066
+Geographic region,Asia,2015,4459437.458,0.997
+Geographic region,Asia,2016,4504153.488,0.999
+Geographic region,Asia,2017,4548303.446,0.953
+Geographic region,Asia,2018,4590021.502,0.874
+Geographic region,Asia,2019,4628967.396,0.816
+Geographic region,Asia,2020,4664324.075,0.706
+Geographic region,Europe,1990,721497.282,0.322
+Geographic region,Europe,1991,723602.898,0.261
+Geographic region,Europe,1992,725259.493,0.197
+Geographic region,Europe,1993,726441.892,0.129
+Geographic region,Europe,1994,727063.162,0.042
+Geographic region,Europe,1995,727300.408,0.023
+Geographic region,Europe,1996,727453.566,0.019
+Geographic region,Europe,1997,727566.48,0.012
+Geographic region,Europe,1998,727445.606,-0.046
+Geographic region,Europe,1999,727100.016,-0.049
+Geographic region,Europe,2000,726968.473,0.013
+Geographic region,Europe,2001,726878.371,-0.038
+Geographic region,Europe,2002,726939.358,0.055
+Geographic region,Europe,2003,727424.988,0.079
+Geographic region,Europe,2004,728163.243,0.124
+Geographic region,Europe,2005,728950.486,0.092
+Geographic region,Europe,2006,729857.708,0.157
+Geographic region,Europe,2007,731393.136,0.264
+Geographic region,Europe,2008,733256.182,0.245
+Geographic region,Europe,2009,734902.805,0.203
+Geographic region,Europe,2010,736276.812,0.17
+Geographic region,Europe,2011,737589.666,0.186
+Geographic region,Europe,2012,738907.594,0.171
+Geographic region,Europe,2013,740013.806,0.128
+Geographic region,Europe,2014,741014.147,0.142
+Geographic region,Europe,2015,742107.449,0.153
+Geographic region,Europe,2016,743318.582,0.173
+Geographic region,Europe,2017,744449.361,0.131
+Geographic region,Europe,2018,745359.13,0.113
+Geographic region,Europe,2019,746189.646,0.109
+Geographic region,Europe,2020,746225.356,-0.1
+Geographic region,Latin America and the Caribbean,1990,442565.114,1.889
+Geographic region,Latin America and the Caribbean,1991,450839.607,1.816
+Geographic region,Latin America and the Caribbean,1992,459026.864,1.784
+Geographic region,Latin America and the Caribbean,1993,467183.201,1.739
+Geographic region,Latin America and the Caribbean,1994,475330.393,1.719
+Geographic region,Latin America and the Caribbean,1995,483431.616,1.662
+Geographic region,Latin America and the Caribbean,1996,491423.986,1.618
+Geographic region,Latin America and the Caribbean,1997,499347.53,1.581
+Geographic region,Latin America and the Caribbean,1998,507199.406,1.539
+Geographic region,Latin America and the Caribbean,1999,514937.047,1.489
+Geographic region,Latin America and the Caribbean,2000,522512.13,1.432
+Geographic region,Latin America and the Caribbean,2001,529912.69,1.381
+Geographic region,Latin America and the Caribbean,2002,537159.484,1.336
+Geographic region,Latin America and the Caribbean,2003,544202.034,1.27
+Geographic region,Latin America and the Caribbean,2004,551122.12,1.258
+Geographic region,Latin America and the Caribbean,2005,557964.02,1.21
+Geographic region,Latin America and the Caribbean,2006,564664.743,1.177
+Geographic region,Latin America and the Caribbean,2007,571246.589,1.141
+Geographic region,Latin America and the Caribbean,2008,577692.625,1.104
+Geographic region,Latin America and the Caribbean,2009,584072.346,1.093
+Geographic region,Latin America and the Caribbean,2010,590547.013,1.112
+Geographic region,Latin America and the Caribbean,2011,597179.842,1.122
+Geographic region,Latin America and the Caribbean,2012,603818.795,1.089
+Geographic region,Latin America and the Caribbean,2013,610323.374,1.054
+Geographic region,Latin America and the Caribbean,2014,616734.059,1.036
+Geographic region,Latin America and the Caribbean,2015,623076.488,1.01
+Geographic region,Latin America and the Caribbean,2016,629341.008,0.991
+Geographic region,Latin America and the Caribbean,2017,635448.2,0.941
+Geographic region,Latin America and the Caribbean,2018,641303.732,0.894
+Geographic region,Latin America and the Caribbean,2019,646846.756,0.828
+Geographic region,Latin America and the Caribbean,2020,651836.122,0.709
+Geographic region,Northern America,1990,275860.329,1.384
+Geographic region,Northern America,1991,279695.833,1.378
+Geographic region,Northern America,1992,283643.363,1.425
+Geographic region,Northern America,1993,287568.763,1.325
+Geographic region,Northern America,1994,291375.997,1.306
+Geographic region,Northern America,1995,295071.643,1.216
+Geographic region,Northern America,1996,298700.407,1.229
+Geographic region,Northern America,1997,302400.883,1.234
+Geographic region,Northern America,1998,306102.899,1.2
+Geographic region,Northern America,1999,309704.74,1.14
+Geographic region,Northern America,2000,313205.695,1.109
+Geographic region,Northern America,2001,316597.666,1.046
+Geographic region,Northern America,2002,319797.596,0.966
+Geographic region,Northern America,2003,322854.669,0.937
+Geographic region,Northern America,2004,325985.321,0.992
+Geographic region,Northern America,2005,329184.546,0.961
+Geographic region,Northern America,2006,332410.934,0.99
+Geographic region,Northern America,2007,335731.785,0.999
+Geographic region,Northern America,2008,339039.344,0.962
+Geographic region,Northern America,2009,342231.802,0.912
+Geographic region,Northern America,2010,345272.107,0.857
+Geographic region,Northern America,2011,348326.006,0.904
+Geographic region,Northern America,2012,351468.986,0.892
+Geographic region,Northern America,2013,354564.457,0.861
+Geographic region,Northern America,2014,357563.868,0.823
+Geographic region,Northern America,2015,360464.919,0.793
+Geographic region,Northern America,2016,363448.679,0.856
+Geographic region,Northern America,2017,366470.737,0.801
+Geographic region,Northern America,2018,369300.738,0.738
+Geographic region,Northern America,2019,371967.922,0.701
+Geographic region,Northern America,2020,373956.671,0.366
+Geographic region,Oceania,1990,26743.824,1.857
+Geographic region,Oceania,1991,27214.1,1.632
+Geographic region,Oceania,1992,27637.106,1.455
+Geographic region,Oceania,1993,28038.401,1.429
+Geographic region,Oceania,1994,28454.917,1.52
+Geographic region,Oceania,1995,28905.122,1.619
+Geographic region,Oceania,1996,29378.688,1.631
+Geographic region,Oceania,1997,29846.362,1.529
+Geographic region,Oceania,1998,30299.183,1.483
+Geographic region,Oceania,1999,30753.17,1.491
+Geographic region,Oceania,2000,31222.775,1.54
+Geographic region,Oceania,2001,31714.602,1.586
+Geographic region,Oceania,2002,32230.003,1.638
+Geographic region,Oceania,2003,32756.468,1.603
+Geographic region,Oceania,2004,33278.446,1.559
+Geographic region,Oceania,2005,33813.026,1.628
+Geographic region,Oceania,2006,34395.528,1.787
+Geographic region,Oceania,2007,35043.841,1.946
+Geographic region,Oceania,2008,35744.784,2.014
+Geographic region,Oceania,2009,36448.274,1.885
+Geographic region,Oceania,2010,37102.764,1.676
+Geographic region,Oceania,2011,37730.132,1.677
+Geographic region,Oceania,2012,38383.408,1.755
+Geographic region,Oceania,2013,39057.446,1.726
+Geographic region,Oceania,2014,39728.973,1.683
+Geographic region,Oceania,2015,40403.283,1.683
+Geographic region,Oceania,2016,41100.877,1.74
+Geographic region,Oceania,2017,41816.926,1.714
+Geographic region,Oceania,2018,42539.677,1.713
+Geographic region,Oceania,2019,43278.15,1.729
+Geographic region,Oceania,2020,43933.425,1.28
